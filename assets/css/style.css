@@ -6,7 +6,7 @@ body {
 
 .gamefield {
     background-color: #313B72;
-    height: 1000px;
+    height: 1200px;
     width: 900px;
     margin: auto;
     text-align: center;
@@ -45,3 +45,7 @@ button {
     font-size: 100%;
 }
 
+.yes, .no {
+    display: inline-block;
+    margin: 2%;
+}

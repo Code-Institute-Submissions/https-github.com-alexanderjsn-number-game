@@ -33,6 +33,8 @@ function rollNumber() {
 
 function reStart () {
     document.getElementsByClassName("result")[0].innerHTML = "Do you want to restart game?";
+    document.getElementsByClassName("yes")[0].innerHTML = "YES";
+    document.getElementsByClassName("no")[0].innerHTML = "NO";
 }
 
 
