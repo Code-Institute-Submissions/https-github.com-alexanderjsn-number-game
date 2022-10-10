@@ -1,1 +1,0 @@
-document.getElementsByClassName("playerscore")[0].innerHTML = 3;
