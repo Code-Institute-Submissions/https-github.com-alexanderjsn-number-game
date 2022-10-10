@@ -10,16 +10,14 @@ body {
     width: 900px;
     margin: auto;
     margin-top: 3%;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
 }
 
 h1, h2, h3 {
     color: #F7FFF7;
 }
 
-h1, .rules {
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-}
 
 .ruletwo {
     text-align: center;
@@ -27,6 +25,17 @@ h1, .rules {
     margin-bottom: 100px;
 }
 
+.numbers {
+    font-size: 140%;
+}
+
+hr {
+    width: 50%;
+}
+
+.subline {
+    width: 10%;
+}
 
 
 
