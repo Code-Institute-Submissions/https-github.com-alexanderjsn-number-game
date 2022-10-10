@@ -6,10 +6,9 @@ body {
 
 .gamefield {
     background-color: #313B72;
-    height: 800px;
+    height: 1000px;
     width: 900px;
     margin: auto;
-    margin-top: 3%;
     text-align: center;
     font-family: 'Roboto Slab', serif;
 }
@@ -30,12 +29,19 @@ h1, h2, h3 {
 }
 
 hr {
-    width: 50%;
+    width: 70%;
 }
 
 .subline {
     width: 10%;
 }
 
-
+button {
+    border-style:double;
+    background-color: #F7FFF7;
+    width: 15%;
+    height: 70px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 100%;
+}
 
