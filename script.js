@@ -29,8 +29,10 @@ function rollNumber() {
     } else if(oscore == 10) {
         document.getElementsByClassName("result")[0].innerHTML = "Too bad, you lost!"; pscore = 0; oscore = 0;
     }
+}
 
-
+function reStart () {
+    document.getElementsByClassName("result")[0].innerHTML = "Do you want to restart game?";
 }
 
 
