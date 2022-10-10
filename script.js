@@ -42,6 +42,15 @@ function reSet () {
     document.getElementsByClassName("oscore")[0].innerHTML = 0;
     document.getElementsByClassName("pnumber")[0].innerHTML = 1;
     document.getElementsByClassName("onumber")[0].innerHTML = 1;
+    document.getElementsByClassName("result")[0].innerHTML = "";
+    document.getElementsByClassName("yes")[0].innerHTML = "";
+    document.getElementsByClassName("no")[0].innerHTML = "";
+}
+
+function noSet () {
+    document.getElementsByClassName("result")[0].innerHTML = "";
+    document.getElementsByClassName("yes")[0].innerHTML = "";
+    document.getElementsByClassName("no")[0].innerHTML = "";
 }
 
 
