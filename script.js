@@ -31,12 +31,13 @@ function rollNumber() {
     }
 }
 
+    //loads reset confirmation question//
 function reStart () {
     document.getElementsByClassName("result")[0].innerHTML = "Do you want to restart game?";
     document.getElementsByClassName("yes")[0].innerHTML = "YES";
     document.getElementsByClassName("no")[0].innerHTML = "NO";
 }
-
+    //yes button that resets game//
 function reSet () {
     document.getElementsByClassName("pscore")[0].innerHTML = 0;
     document.getElementsByClassName("oscore")[0].innerHTML = 0;
@@ -46,7 +47,7 @@ function reSet () {
     document.getElementsByClassName("yes")[0].innerHTML = "";
     document.getElementsByClassName("no")[0].innerHTML = "";
 }
-
+    //no button that closes reset message with no changes to game//
 function noSet () {
     document.getElementsByClassName("result")[0].innerHTML = "";
     document.getElementsByClassName("yes")[0].innerHTML = "";
