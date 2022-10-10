@@ -6,7 +6,7 @@ body {
 
 .gamefield {
     background-color: #313B72;
-    height: 1200px;
+    height: 1100px;
     width: 900px;
     margin: auto;
     text-align: center;
@@ -39,10 +39,9 @@ hr {
 button {
     border-style:double;
     background-color: #F7FFF7;
-    width: 15%;
-    height: 70px;
     font-family: 'Roboto Slab', serif;
     font-size: 100%;
+    margin: 1%;
 }
 
 .yes, .no {
@@ -53,3 +52,13 @@ button {
 .yes:hover, .no:hover {
     color:#227C9D;
 }
+
+#play {
+    height: 70px;
+    width: 130px;
+}
+
+#reset {
+    height: 70px;
+}
+
