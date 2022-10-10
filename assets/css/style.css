@@ -5,5 +5,7 @@ body {
 .gamefield {
     background-color: #FF6B6B;
     height: 800px;
-    width: 100px;
+    width: 900px;
+    margin: auto;
+    margin-top: 3%;
 }
