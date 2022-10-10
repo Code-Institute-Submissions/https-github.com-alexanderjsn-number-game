@@ -39,6 +39,8 @@ function reStart () {
 }
     //yes button that resets game//
 function reSet () {
+    pscore = 0;
+    oscore = 0;
     document.getElementsByClassName("pscore")[0].innerHTML = 0;
     document.getElementsByClassName("oscore")[0].innerHTML = 0;
     document.getElementsByClassName("pnumber")[0].innerHTML = 1;

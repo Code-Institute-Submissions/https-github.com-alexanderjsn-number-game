@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@252&display=swap');
 
 body {
-    background-color: #F7FFF7;
+    background-color: #313B72;
 }
 
 .gamefield {
@@ -68,3 +68,5 @@ button:hover {
     color: #F7FFF7;
     cursor: pointer;
 }
+
+
