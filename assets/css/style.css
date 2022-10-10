@@ -1,11 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@252&display=swap');
+
 body {
     background-color: #F7FFF7;
 }
 
 .gamefield {
-    background-color: #FF6B6B;
+    background-color: #313B72;
     height: 800px;
     width: 900px;
     margin: auto;
     margin-top: 3%;
 }
+
+h1, h2, h3 {
+    color: #F7FFF7;
+}
+
+h1, .rules {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+
+.ruletwo {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 100px;
+}
+
+
+
+
