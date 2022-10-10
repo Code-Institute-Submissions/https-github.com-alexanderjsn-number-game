@@ -37,5 +37,12 @@ function reStart () {
     document.getElementsByClassName("no")[0].innerHTML = "NO";
 }
 
+function reSet () {
+    document.getElementsByClassName("pscore")[0].innerHTML = 0;
+    document.getElementsByClassName("oscore")[0].innerHTML = 0;
+    document.getElementsByClassName("pnumber")[0].innerHTML = 1;
+    document.getElementsByClassName("onumber")[0].innerHTML = 1;
+}
+
 
 
