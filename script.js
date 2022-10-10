@@ -12,6 +12,7 @@ function rollNumber() {
     document.getElementsByClassName("pnumber")[0].innerHTML = pnumber;
     document.getElementsByClassName("onumber")[0].innerHTML = onumber;
 
+//updates scores//
     if(pnumber > onumber) {
         pscore += 1; 
     } else if (onumber > pnumber) {
@@ -21,6 +22,15 @@ function rollNumber() {
     }
     document.getElementsByClassName("pscore")[0].innerHTML = pscore;
     document.getElementsByClassName("oscore")[0].innerHTML = oscore;
+
+    if(pscore == 10) {
+        document.getElementsByClassName("result")[0].innerHTML = "Congratulations, you won!";
+    } else if(oscore == 10) {
+        document.getElementsByClassName("result")[0].innerHTML = "Too bad, you lost!";
+    }
+
+
 }
+
 
 
