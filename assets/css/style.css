@@ -1,0 +1,9 @@
+body {
+    background-color: #F7FFF7;
+}
+
+.gamefield {
+    background-color: #FF6B6B;
+    height: 800px;
+    width: 100px;
+}
