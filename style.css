@@ -86,9 +86,10 @@ element.style {
   }
 
   @media only screen and (max-width: 500px) {
-.gamefield 
+.gamefield {
     margin-left: -310px;
     font-size: 40%;
+}
 
     #play {
         height: 70px;
