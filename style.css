@@ -84,3 +84,14 @@ element.style {
     font-family: 'Roboto Slab', serif;
 }
   }
+
+  @media only screen and (max-width: 500px) {
+.gamefield 
+    margin-left: -310px;
+    font-size: 40%;
+
+    #play {
+        height: 70px;
+        width: 70px;
+    }
+}
