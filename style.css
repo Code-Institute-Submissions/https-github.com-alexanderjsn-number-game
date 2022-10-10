@@ -70,3 +70,17 @@ button:hover {
 }
 
 
+@media only screen and (max-width: 900px) {
+    
+element.style {
+}
+.gamefield {
+    background-color: #313B72;
+    height: 1100px;
+    width: 900px;
+    /* margin: auto; */
+    margin-left: -140px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+  }
