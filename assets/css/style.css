@@ -49,3 +49,7 @@ button {
     display: inline-block;
     margin: 2%;
 }
+
+.yes:hover, .no:hover {
+    color:#227C9D;
+}
