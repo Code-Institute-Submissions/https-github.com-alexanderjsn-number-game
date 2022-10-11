@@ -4,11 +4,8 @@ body {
     background-color: #313B72;
 }
 
-.gamefield {
+.gamefield, header {
     background-color: #313B72;
-    height: 1100px;
-    width: 900px;
-    margin: auto;
     text-align: center;
     font-family: 'Roboto Slab', serif;
 }
@@ -72,27 +69,25 @@ button:hover {
 
 @media only screen and (max-width: 900px) {
     
-element.style {
-}
 .gamefield {
-    background-color: #313B72;
-    height: 1100px;
-    width: 900px;
-    /* margin: auto; */
-    margin-left: -140px;
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
+    font-size: 40%;
+      width: auto;
+      margin: auto;
 }
   }
 
   @media only screen and (max-width: 500px) {
-.gamefield {
-    margin-left: -310px;
-    font-size: 40%;
+  .gamefield {
+      font-size: 40%;
+      width: auto;
+      margin: auto;
+  }
 }
 
-    #play {
-        height: 70px;
-        width: 70px;
-    }
+@media only screen and (max-width: 400px) {
+.gamefield {
+    font-size: 40%;
+      width: auto;
+      margin: auto;
+}
 }
