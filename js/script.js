@@ -4,6 +4,7 @@ let oscore = 0;
 let onumber = 0;
 
 
+
 //makes button roll random number//
 function rollNumber() {
     let pnumber = Math.floor(Math.random() * 6) + 1;
@@ -11,7 +12,7 @@ function rollNumber() {
 //updates html//
     document.getElementsByClassName("pnumber")[0].innerHTML = pnumber;
     document.getElementsByClassName("onumber")[0].innerHTML = onumber;
-
+    
 //updates scores//
     if(pnumber > onumber) {
         pscore += 1; 
@@ -22,6 +23,7 @@ function rollNumber() {
     }
     document.getElementsByClassName("pscore")[0].innerHTML = pscore;
     document.getElementsByClassName("oscore")[0].innerHTML = oscore;
+
 
     //alerts the player upon victory/defeat//
     if(pscore == 10) {
@@ -45,6 +47,7 @@ function reSet () {
     document.getElementsByClassName("oscore")[0].innerHTML = 0;
     document.getElementsByClassName("pnumber")[0].innerHTML = 1;
     document.getElementsByClassName("onumber")[0].innerHTML = 1;
+    //removes reset alternatives upon clicking yes//
     document.getElementsByClassName("result")[0].innerHTML = "";
     document.getElementsByClassName("yes")[0].innerHTML = "";
     document.getElementsByClassName("no")[0].innerHTML = "";
