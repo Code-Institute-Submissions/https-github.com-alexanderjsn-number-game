@@ -77,7 +77,7 @@ button:hover {
 
 #play {
     height: 70px;
-    width: 70px;
+    width: 1000px;
 }
   }
 
@@ -94,5 +94,10 @@ button:hover {
     font-size: 40%;
       width: auto;
       margin: auto;
+}
+
+#play {
+    height: 70px;
+    width: 70px;
 }
 }

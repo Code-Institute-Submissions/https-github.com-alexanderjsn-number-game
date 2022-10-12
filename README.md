@@ -1,6 +1,6 @@
 # The number game
 
-View the project by clicking the link. (https://alexanderjsn.github.io/number-game/)
+View the project by clicking the [link](https://alexanderjsn.github.io/number-game/)
 
 ![This is an image](/docs/number-game-main.png)
 
@@ -61,6 +61,9 @@ WIP
 
 (https://www.youtube.com/watch?v=SrSBhuuuIsg/)
 
+Instructions on how to create random numbers and make it update the HTML content were taken from CI [LoveMaths project](https://www.youtube.com/watch?v=J3GM0FrBak8&t=46s/)
+
+Instructions on how to update scores were taken from CI [LoveMaths project](https://www.youtube.com/watch?time_continue=42&v=9sPrhBoTmSk&feature=emb_title/)
 
 ### Acknowledgements
 

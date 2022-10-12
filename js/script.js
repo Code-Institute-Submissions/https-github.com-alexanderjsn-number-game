@@ -4,7 +4,6 @@ let oscore = 0;
 let onumber = 0;
 
 
-
 //makes button roll random number//
 function rollNumber() {
     let pnumber = Math.floor(Math.random() * 6) + 1;
@@ -61,3 +60,7 @@ function noSet () {
 
 
 
+function updateScore(){
+    let oldscore = parseInt(document.getElementsByClassName("oscore").innerText);
+    document.getElementsByClassName("oscore").innerText = ++oldscore;
+}
