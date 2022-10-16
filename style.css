@@ -39,7 +39,9 @@ button {
     background-color: #F7FFF7;
     font-family: 'Roboto Slab', serif;
     font-size: 100%;
-    margin: 1%;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
 }
 
 .yes, .no {

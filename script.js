@@ -18,16 +18,17 @@ function rollNumber() {
     } else if (onumber > pnumber) {
         oscore += 1;
     } if (onumber == pnumber) {
-        onumber += 1; pnumber +=1;
+        onumber += 1; 
+        pnumber +=1;
     }
     document.getElementsByClassName("pscore")[0].innerHTML = pscore;
     document.getElementsByClassName("oscore")[0].innerHTML = oscore;
 
 
     //alerts the player upon victory/defeat//
-    if(pscore == 10) {
+    if(pscore === 10) {
         document.getElementsByClassName("result")[0].innerHTML = "Congratulations, you won!"; pscore = 0; oscore = 0;
-    } else if(oscore == 10) {
+    } else if(oscore === 10) {
         document.getElementsByClassName("result")[0].innerHTML = "Too bad, you lost!"; pscore = 0; oscore = 0;
     }
 }
@@ -37,6 +38,8 @@ function reStart () {
     document.getElementsByClassName("result")[0].innerHTML = "Do you want to restart game?";
     document.getElementsByClassName("yes")[0].innerHTML = "YES";
     document.getElementsByClassName("no")[0].innerHTML = "NO";
+    let removePlay = document.getElementById("play").style.display = "none";
+    let removeReset = document.getElementById("reset").style.display = "none";
 }
     //yes button that resets game//
 function reSet () {
@@ -50,6 +53,8 @@ function reSet () {
     document.getElementsByClassName("result")[0].innerHTML = "";
     document.getElementsByClassName("yes")[0].innerHTML = "";
     document.getElementsByClassName("no")[0].innerHTML = "";
+    document.getElementById("play").style.display = "inline-flex";
+    document.getElementById("reset").style.display = "inline-flex";
 }
     //no button that closes reset message with no changes to game//
 function noSet () {
@@ -60,7 +65,3 @@ function noSet () {
 
 
 
-function updateScore(){
-    let oldscore = parseInt(document.getElementsByClassName("oscore").innerText);
-    document.getElementsByClassName("oscore").innerText = ++oldscore;
-}
