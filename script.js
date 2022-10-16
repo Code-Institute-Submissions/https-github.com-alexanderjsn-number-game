@@ -61,6 +61,8 @@ function noSet () {
     document.getElementsByClassName("result")[0].innerHTML = "";
     document.getElementsByClassName("yes")[0].innerHTML = "";
     document.getElementsByClassName("no")[0].innerHTML = "";
+    document.getElementById("play").style.display = "inline-flex";
+    document.getElementById("reset").style.display = "inline-flex";
 }
 
 
