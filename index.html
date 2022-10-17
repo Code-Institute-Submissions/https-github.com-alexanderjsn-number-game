@@ -13,27 +13,25 @@
     </header>
     <div class="gamefield">
     <h2 class="rules">How to play:</h2>
-    <h3 class="ruletwo">Press the "Play Game" button to roll a random number from 1-6. <br> The computer will also roll a random number. <br>
+    <h3 class="ruletwo">Press the "Play Game" button to roll a random number from 1-6 in the middle. <br> The computer will also roll a random number. <br>
         Whoever gets the highest number scores one point. Whoever scores 10 points first wins the game.
     </h3>
     <div class="numbers">
-    <div compscore>
     <h2>Computers score:</h2>
-    <h2 class="oscore">0</h2>
-    </div>
+    <h2 class="opponentscore">0</h2>
     <hr class="subline">
-    <h2 class="onumber">1</h2>
+    <h2 class="opponentnumber">1</h2>
     <hr>
-    <h2 class="pnumber">1</h2>
+    <h2 class="playernumber">1</h2>
     <hr class="subline">
     <h2>Your score:</h2>
-    <h2 class="pscore">0</h2>
+    <h2 class="playerscore">0</h2>
     <h2 class="result"></h2>
-    <h2 class="yes" onclick="reSet()"></h2> 
-    <h2 class="no" onclick="noSet()"></h2>
+    <h2 class="yes" onclick="reset()"></h2> 
+    <h2 class="no" onclick="dontReset()"></h2>
     </div>
     <button id="play" onclick="rollNumber()" >PLAY GAME</button>
-    <button id="reset" onclick="reStart()">RESTART GAME</button>
+    <button id="reset" onclick="resetOptions()">RESTART GAME</button>
     </div>
     </div>
 
