@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 let playerscore = 0;
 let playernumber = 0;
 let opponentscore = 0;
@@ -73,8 +75,8 @@ function reset() {
     document.getElementsByClassName("result")[0].innerHTML = "";
     document.getElementsByClassName("yes")[0].innerHTML = "";
     document.getElementsByClassName("no")[0].innerHTML = "";
-    document.getElementById("play").style.display = "inline-flex";
-    document.getElementById("reset").style.display = "inline-flex";
+    document.getElementById("play").style.display = "inline-block";
+    document.getElementById("reset").style.display = "inline-block";
 }
 //no button that closes reset message with no changes to game//
 function dontReset() {
@@ -82,6 +84,6 @@ function dontReset() {
     document.getElementsByClassName("yes")[0].innerHTML = "";
     document.getElementsByClassName("no")[0].innerHTML = "";
     //adds "play" and "reset" buttons//
-    document.getElementById("play").style.display = "inline-flex";
-    document.getElementById("reset").style.display = "inline-flex";
+    document.getElementById("play").style.display = "inline-block";
+    document.getElementById("reset").style.display = "inline-block";
 }
