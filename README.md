@@ -14,21 +14,30 @@ The number game is a game with a simple rule. Press the button to roll a random 
 
 2. As a First Time Visitor, I want to be able to use all the games functions without any technical errors caused by bugs. 
 
-### Design
+ ### Design
 
-#### Colour Scheme
+- #### Colour Scheme
     The website uses an indigo blue as a background colour and a white colour for the font. Upon hovering on the buttons or reset options, the text changes colour to a green/blue colour. 
 
-#### Typography
+ - #### Typography
     The main font is Roboto with Sans Serif as the fallback font in case of technical errors. 
 
 ## Features
 
-        - Responsive on all device sizes
+- Responsive on all device sizes
         
-        - Interactive elements
+ - Interactive elements
 
-        - A reset button that gives the user the option to reset the game. 
+- Two random numbers that generates when pushing a button
+        
+- Scoreboard that updates to the player with highest number
+        
+ - A victory/defeat message to inform the player
+        
+- A "restart game" button that gives the player the option
+        to reset the scores and numbers to default. 
+
+    ![This is an image](/docs/restart.png)
 
 ### Frameworks, Libraries & Programs Used
 
@@ -41,29 +50,33 @@ The number game is a game with a simple rule. Press the button to roll a random 
     3  [Git](https://git-scm.com/)
     - Used to commit and push the code to Github.
 
-## Testing
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+### Languages Used
 
-WIP
+-   [HTML](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JS](https://en.wikipedia.org/wiki/JavaScript)
+
+## Testing
+The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+
 
 ### Further Testing
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
--   A large amount of testing was done to ensure that all pages were linking correctly.
+- A large amount of testing has been made to ensure that the game works without any bugs. 
 
-### Known Bugs
+### Fixed Bugs
 
-- Sometimes the site appears smaller on Google Chrome browser. Media queries has no effect on this issue and it has only been reported once by one user. 
+- The scoring would not update when a higher number was achieved. Resetting the variable scores to 0 fixed this issue. 
+
+- The random number generator would add the number 0 to the scoreboard. To fix this issue, I added + 1 to the Math.floor(Math.random()) method. 
 
 ## Credits 
 
-WIP
+- Instructions on how to create random numbers and make it update the HTML content were taken from CI [LoveMaths project](https://www.youtube.com/watch?v=J3GM0FrBak8&t=46s/)
 
-(https://www.youtube.com/watch?v=SrSBhuuuIsg/)
-
-Instructions on how to create random numbers and make it update the HTML content were taken from CI [LoveMaths project](https://www.youtube.com/watch?v=J3GM0FrBak8&t=46s/)
-
-Instructions on how to update scores were taken from CI [LoveMaths project](https://www.youtube.com/watch?time_continue=42&v=9sPrhBoTmSk&feature=emb_title/)
+- Instructions on how to update scores were taken from [Kenny Yip Coding](https://www.youtube.com/watch?v=fIBOydve2f8)
 
 ### Acknowledgements
 

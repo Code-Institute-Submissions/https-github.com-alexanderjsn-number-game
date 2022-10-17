@@ -1,109 +1,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@252&display=swap');
-
 body {
-    background-color: #313B72;
+	background-color: #313B72;
 }
-
 .gamefield, header {
-    background-color: #313B72;
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
+	background-color: #313B72;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
 }
-
-
 h1, h2, h3 {
-    color: #F7FFF7;
+	color: #F7FFF7;
 }
-
-
 .ruletwo {
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-    margin-bottom: 100px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	margin-bottom: 100px;
 }
-
 .numbers {
-    font-size: 100%;
+	font-size: 100%;
 }
-
 hr {
-    width: 70%;
+	width: 70%;
 }
-
 .subline {
-    width: 10%;
+	width: 10%;
 }
-
 .compscore {
-    text-align: center;
+	text-align: center;
 }
-
 button {
-    border-style:double;
-    background-color: #F7FFF7;
-    font-family: 'Roboto Slab', serif;
-    font-size: 100%;
-    margin: auto;
-    display: inline-flex;
-    align-items: center;
+	border-style:double;
+	background-color: #F7FFF7;
+	font-family: 'Roboto Slab', serif;
+	font-size: 100%;
+	margin: auto;
+	display: inline-flex;
+	align-items: center;
 }
-
 .yes, .no {
-    display: inline-block;
-    margin: 2%;
+	display: inline-block;
+	margin: 2%;
 }
-
 .yes:hover, .no:hover {
-    color:#227C9D;
+	color:#227C9D;
 }
-
 #play {
-    height: 70px;
-    width: 130px;
+	height: 70px;
+	width: 130px;
 }
-
 #reset {
-    height: 70px;
+	height: 70px;
 }
-
 button:hover {
-    background-color:#227C9D;
-    color: #F7FFF7;
-    cursor: pointer;
+	background-color:#227C9D;
+	color: #F7FFF7;
+	cursor: pointer;
 }
-
-
 @media only screen and (max-width: 900px) {
-    
-.gamefield {
-    font-size: 100%;
-      width: auto;
-      margin: auto;
+	.gamefield {
+		font-size: 100%;
+		width: auto;
+		margin: auto;
+	}
+	#play {
+		height: 70px;
+		width: 118px;
+	}
 }
-
-#play {
-    height: 70px;
-    width: 118px;
+@media only screen and (max-width: 500px) {
+	.gamefield {
+		font-size: 80%;
+		width: auto;
+		margin: auto;
+	}
 }
-  }
-
-  @media only screen and (max-width: 500px) {
-  .gamefield {
-      font-size: 80%;
-      width: auto;
-      margin: auto;
-  }
-}
-
 @media only screen and (max-width: 400px) {
-.gamefield {
-    font-size: 40%;
-      width: auto;
-      margin: auto;
-}
-
-#play {
-    height: 70px;
-    width: 70px;
-}
+	.gamefield {
+		font-size: 40%;
+		width: auto;
+		margin: auto;
+	}
+	#play {
+		height: 70px;
+		width: 70px;
+	}
 }
