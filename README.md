@@ -2,9 +2,15 @@
 
 View the project by clicking the [link](https://alexanderjsn.github.io/number-game/)
 
-![This is an image](/docs/gamemain.png)
+![This is an image](/docs/maingame.png)
 
-The number game is a game with a simple rule. Press the button to roll a random number from 1-6 and if your number is higher than the opponents, you score one point. Whoever scores 10 points first wins the game. 
+The number game is a game with very simple rules. 
+
+### How to play
+
+- Press the "play game" button to generate a random number for yourself and the computer ( the two numbers in the middle ).
+- If your number is higher than the computers, you score one points and vice versa. 
+- The first to reach 10 points wins the game. 
 
 ## User Experience (UX)
 
