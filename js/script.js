@@ -75,6 +75,7 @@ function reset() {
     document.getElementsByClassName("result")[0].innerHTML = "";
     document.getElementsByClassName("yes")[0].innerHTML = "";
     document.getElementsByClassName("no")[0].innerHTML = "";
+    //adds "play" and "reset" buttons//
     document.getElementById("play").style.display = "inline-block";
     document.getElementById("reset").style.display = "inline-block";
 }

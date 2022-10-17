@@ -2,7 +2,7 @@
 
 View the project by clicking the [link](https://alexanderjsn.github.io/number-game/)
 
-![This is an image](/docs/number-game-main.png)
+![This is an image](/docs/gamemain.png)
 
 The number game is a game with a simple rule. Press the button to roll a random number from 1-6 and if your number is higher than the opponents, you score one point. Whoever scores 10 points first wins the game. 
 
@@ -59,7 +59,8 @@ The number game is a game with a simple rule. Press the button to roll a random 
 ## Testing
 The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-
+![This is an image](/docs/lighthouse.png)
+![This is an image](/docs/responsive.png)
 
 ### Further Testing
 -   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
@@ -71,6 +72,8 @@ The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to val
 - The scoring would not update when a higher number was achieved. Resetting the variable scores to 0 fixed this issue. 
 
 - The random number generator would add the number 0 to the scoreboard. To fix this issue, I added + 1 to the Math.floor(Math.random()) method. 
+
+- The text inside the buttons would align to the left upon clicking on the "reset game" button. To fix this I used the "display: inline-block" value in the script instead of "display:inline-flex".
 
 ## Credits 
 
