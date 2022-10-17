@@ -24,9 +24,7 @@ hr {
 .subline {
 	width: 10%;
 }
-.compscore {
-	text-align: center;
-}
+
 button {
 	border-style:double;
 	background-color: #F7FFF7;
@@ -55,6 +53,8 @@ button:hover {
 	color: #F7FFF7;
 	cursor: pointer;
 }
+
+
 @media only screen and (max-width: 900px) {
 	.gamefield {
 		font-size: 100%;
