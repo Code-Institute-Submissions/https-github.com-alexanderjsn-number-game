@@ -1,11 +1,10 @@
 /*jshint esversion: 6 */
 const playerNumber = document.querySelector(".playernumber");
 const opponentNumber = document.querySelector(".opponentnumber");
+const playerscore = document.querySelector(".playerscore");
+const opponentscore = document.querySelector(".opponentscore");
 const play = document.querySelector("#play");
-let playerscore = 0;
-let playernumber = 0;
-let opponentscore = 0;
-let opponentnumber = 0;
+
 
 /**
  * The main feature of the game. Clicking the button "play game"
