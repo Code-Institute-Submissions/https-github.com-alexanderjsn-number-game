@@ -95,7 +95,7 @@ The live link can be found [here](https://alexanderjsn.github.io/number-game/)
 
 - Instructions on how to update scores were taken from [Kenny Yip Coding](https://www.youtube.com/watch?v=fIBOydve2f8)
 
-- Instructions on how to use eventlisteners and arrow function [Bro Code](https://www.youtube.com/watch?v=8dWL3wF_OMw&t=18740s)
+- Instructions on how to use event listeners and arrow function [Bro Code](https://www.youtube.com/watch?v=8dWL3wF_OMw&t=18740s)
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
