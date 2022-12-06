@@ -1,27 +1,39 @@
 /*jshint esversion: 6 */
-
+const playerNumber = document.querySelector(".playernumber");
+const opponentNumber = document.querySelector(".opponentnumber");
+const play = document.querySelector("#play");
 let playerscore = 0;
 let playernumber = 0;
 let opponentscore = 0;
 let opponentnumber = 0;
-
 
 /**
  * The main feature of the game. Clicking the button "play game"
  * calls this function to generate two random numbers 
  * and update the HTML to display the two generated numbers 
  */
-function rollNumber() {
-    let playernumber = Math.floor(Math.random() * 6) + 1;
-    let opponentnumber = Math.floor(Math.random() * 6) + 1;
-    document.getElementsByClassName("playernumber")[0].innerHTML = playernumber;
-    document.getElementsByClassName("opponentnumber")[0].innerHTML = opponentnumber;
 
+
+play.addEventListener("click", () => {
+    rollNumber();
+    compNumber();
+    checkScore();
+});
+
+    function rollNumber() {
+         playernumber = Math.floor(Math.random() * 6) + 1;
+        document.getElementsByClassName("playernumber")[0].innerHTML = playernumber;
+    }
+    function compNumber(){
+         opponentnumber = Math.floor(Math.random() * 6) + 1;
+        document.getElementsByClassName("opponentnumber")[0].innerHTML = opponentnumber;
+    }
     /**
      * Function to update the scores. 
      * When either the opponent or player gets a higher number
      * the score is incremented by 1. 
      */
+    function checkScore(){
     if (playernumber > opponentnumber) {
         playerscore += 1;
     } else if (opponentnumber > playernumber) {
@@ -48,8 +60,8 @@ function rollNumber() {
         document.getElementsByClassName("result")[0].innerHTML = "Too bad, you lost!";
         playerscore = 0;
         opponentscore = 0;
-    }
-}
+    }}
+
 
 /**
  * Clicking the button "reset game" runs this function 
