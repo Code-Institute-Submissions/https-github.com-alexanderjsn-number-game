@@ -81,12 +81,21 @@ The W3C Markup Validator, W3C CSS Validator Services and JSHint were used to val
 
 - The text inside the buttons would align to the left upon clicking on the "reset game" button. To fix this I used the "display: inline-block" value in the script instead of "display:inline-flex".
 
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found [here](https://alexanderjsn.github.io/number-game/)
+
 ## Credits 
 
 - Instructions on how to create random numbers and make it update the HTML content were taken from CI [LoveMaths project](https://www.youtube.com/watch?v=J3GM0FrBak8&t=46s/)
 
 - Instructions on how to update scores were taken from [Kenny Yip Coding](https://www.youtube.com/watch?v=fIBOydve2f8)
 
+- Instructions on how to use eventlisteners and arrow function [Bro Code](https://www.youtube.com/watch?v=8dWL3wF_OMw&t=18740s)
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
