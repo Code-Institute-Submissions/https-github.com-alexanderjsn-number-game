@@ -1,4 +1,4 @@
-/*jshint esversion: 6 */
+/*jshint esversion: 6*/
 const play = document.querySelector("#play");
 let playerscore = 0;
 let opponentscore = 0;
@@ -16,20 +16,21 @@ play.addEventListener("click", () => {
     checkScore();
 });
 
-    function rollNumber() {
-         playernumber = Math.floor(Math.random() * 6) + 1;
-        document.getElementsByClassName("playernumber")[0].innerHTML = playernumber;
-    }
-    function compNumber(){
-         opponentnumber = Math.floor(Math.random() * 6) + 1;
-        document.getElementsByClassName("opponentnumber")[0].innerHTML = opponentnumber;
-    }
-    /**
-     * Function to update the scores. 
-     * When either the opponent or player gets a higher number
-     * the score is incremented by 1. 
-     */
-    function checkScore(){
+function rollNumber() {
+    playernumber = Math.floor(Math.random() * 6) + 1;
+    document.getElementsByClassName("playernumber")[0].innerHTML = playernumber;
+}
+
+function compNumber() {
+    opponentnumber = Math.floor(Math.random() * 6) + 1;
+    document.getElementsByClassName("opponentnumber")[0].innerHTML = opponentnumber;
+}
+/**
+ * Function to update the scores. 
+ * When either the opponent or player gets a higher number
+ * the score is incremented by 1. 
+ */
+function checkScore() {
     if (playernumber > opponentnumber) {
         playerscore += 1;
     } else if (opponentnumber > playernumber) {
@@ -56,7 +57,8 @@ play.addEventListener("click", () => {
         document.getElementsByClassName("result")[0].innerHTML = "Too bad, you lost!";
         playerscore = 0;
         opponentscore = 0;
-    }}
+    }
+}
 
 
 /**
